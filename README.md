@@ -1,6 +1,6 @@
 # ML Inference API: Exam Score Predictor
 
-This repository contains a production-ready prototype for a Machine Learning inference API built with FastAPI and scikit-learn. It predicts exam scores based on hours studied using a Linear Regression model.
+This repository contains a structured local prototype for a Machine Learning inference API built with FastAPI and scikit-learn. It predicts exam scores based on hours studied using a Linear Regression model.
 
 ## 1. Project Overview
 The goal of this project is to demonstrate a clean, modular approach to serving ML models. It provides a RESTful interface for real-time predictions, complete with input validation and automated testing.
@@ -27,7 +27,7 @@ The project follows a standard modular design for Python-based ML services:
 1. **Create a virtual environment:**
    ```bash
    python -m venv .venv
-   source .venv/bin/bin/activate  # On Windows: .venv\Scripts\activate
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
 2. **Install dependencies:**
    ```bash
